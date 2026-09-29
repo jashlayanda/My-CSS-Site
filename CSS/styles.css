@@ -1,3 +1,46 @@
 body {
-    background-color: blue;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 450px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 450px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.mountain {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+    left: 50px;
 }
